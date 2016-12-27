@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <table name="tbltypes">
+    <records>
+      <record>
+        <ty_id>1</ty_id>
+        <ty_nm><![CDATA[Multiple Choice Questions]]></ty_nm>
+        <sort_id>1</sort_id>
+      </record>
+      <record>
+        <ty_id>2</ty_id>
+        <ty_nm><![CDATA[Match the following]]></ty_nm>
+        <sort_id>2</sort_id>
+      </record>
+      <record>
+        <ty_id>3</ty_id>
+        <ty_nm><![CDATA[True and False]]></ty_nm>
+        <sort_id>3</sort_id>
+      </record>
+     
+      <record>
+        <ty_id>7</ty_id>
+        <ty_nm><![CDATA[Fill in the blanks]]></ty_nm>
+        <sort_id>4</sort_id>
+      </record>
+            
+          <record>
+        <ty_id>11</ty_id>
+        <ty_nm><![CDATA[Answer the questions]]></ty_nm>
+        <sort_id>5</sort_id>
+      </record>
+	  <record>
+        <ty_id>10</ty_id>
+        <ty_nm><![CDATA[Long answer questions]]></ty_nm>
+        <sort_id>6</sort_id>
+      </record>
+	  <record>
+        <ty_id>12</ty_id>
+        <ty_nm><![CDATA[Odd One Out]]></ty_nm>
+        <sort_id>7</sort_id>
+      </record>
+      <record>
+        <ty_id>8</ty_id>
+        <ty_nm><![CDATA[Fill in the blanks with the help of the given options]]></ty_nm>
+        <sort_id>8</sort_id>
+      </record>
+	  
+    </records>
+  </table>
+  <table name="tblchapters">
+    <records>
+	  
+      <record>
+        <ch_id>1</ch_id>
+        <ch_nm><![CDATA[1. Let us make sentences!]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>2</ch_id>
+        <ch_nm><![CDATA[2. All about nouns]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>3</ch_id>
+        <ch_nm><![CDATA[3. Proper nouns]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>4</ch_id>
+        <ch_nm><![CDATA[4. Can you swim?]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>5</ch_id>
+        <ch_nm><![CDATA[5. What are you doing at the weekend?]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>6</ch_id>
+        <ch_nm><![CDATA[6. Can you help me, please?]]></ch_nm>
+      </record>
+      <record>
+        <ch_id>7</ch_id>
+        <ch_nm><![CDATA[7. Is it raining?]]></ch_nm>
+      </record>
+      <record>
+        <ch_id>8</ch_id>
+        <ch_nm><![CDATA[8. When I was a baby]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>9</ch_id>
+        <ch_nm><![CDATA[9. I played cricket yesterday.]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>10</ch_id>
+        <ch_nm><![CDATA[10. A mango and some bananas, please]]></ch_nm>
+      </record>
+      <record>
+        <ch_id>11</ch_id>
+        <ch_nm><![CDATA[11. This is my school.]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>12</ch_id>
+        <ch_nm><![CDATA[12. She is tall and intelligent.]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>13</ch_id>
+        <ch_nm><![CDATA[13. We played brilliantly!]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>14</ch_id>
+        <ch_nm><![CDATA[14. Come to my house!]]></ch_nm>
+      </record>
+	   <record>
+        <ch_id>15</ch_id>
+        <ch_nm><![CDATA[15. My life.]]></ch_nm>
+      </record>
+	  <record>
+        <ch_id>16</ch_id>
+        <ch_nm><![CDATA[16. Tell me a story]]></ch_nm>
+      </record>
+     
+    </records>
+  </table>
+  <table name="tblquestions">
+    <records>
+	
+	
+	<!--MCQ-->
+	
+	
+	
+	
+	
+	
+	 <record>
+        <qu_id>7</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is a negative sentence?&lt;br/&gt;a. I want to dance.&lt;br/&gt; b. Can you shout? &lt;br/&gt; c. Do not play here. &lt;br/&gt; d. Where is he?&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+     <record>
+        <qu_id>6</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these word describes a masculine gender?&lt;br/&gt;a. Table&lt;br/&gt;b. Girl&lt;br/&gt;c. Cup&lt;br/&gt;d. King&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     <record>
+        <qu_id>5</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is a proper noun?&lt;br/&gt;a. Men &lt;br/&gt; b. April &lt;br/&gt;c. Teacher &lt;br/&gt;d. Dancer&lt;br/&gt;</qu_text>
+        <qu_ans>b</qu_ans>
+     </record>
+	 <record>
+        <qu_id>4</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>If you are an athlete, what can you do?&lt;br/&gt;a. You can dance. &lt;br/&gt; b. You can sing.  &lt;br/&gt; c. You can run fast. &lt;br/&gt; d. You can paint.&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+     <record>
+        <qu_id>3</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these verbs is in the present continuous form?&lt;br/&gt;a. Dance&lt;br/&gt;b. Singing&lt;br/&gt;c. Run&lt;br/&gt;d. Act&lt;br/&gt;</qu_text>
+        <qu_ans>b</qu_ans>
+     </record>
+     <record>
+        <qu_id>2</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What word can we use to make a request to someone?&lt;br/&gt;a. please&lt;br/&gt;b. sorry&lt;br/&gt;c. thanks&lt;br/&gt;d. hello&lt;br/&gt;</qu_text>
+        <qu_ans>a.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>1</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these sentences shows that the sun is out?&lt;br/&gt;a. It's sunny.&lt;br/&gt;b. It's raining.&lt;br/&gt;c. It's snowing.&lt;br/&gt;d. It's foggy.&lt;br/&gt;</qu_text>
+        <qu_ans>a.</qu_ans>
+     </record>
+	 
+    <record>
+        <qu_id>15</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of the following sentences is in past form?&lt;br/&gt;a. You were quite tired. &lt;br/&gt; b. I am a shy girl.  &lt;br/&gt; c. She plays guitar. &lt;br/&gt; d. My friend is in Nepal.&lt;br/&gt;</qu_text>
+        <qu_ans>a</qu_ans>
+     </record>
+     <record>
+        <qu_id>14</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is not an irregular verb?&lt;br/&gt;a. go&lt;br/&gt;b. buy&lt;br/&gt;c. break&lt;br/&gt;d. wash&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+    
+     <record>
+        <qu_id>13</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of the following sentences is correct?&lt;br/&gt;a. I have some pencils in my pencil box.&lt;br/&gt;b. I have any pencils in my pencil box.&lt;br/&gt;c. I have a pencils in my pencil box.&lt;br/&gt;d. I have an pencils in my pencil box.&lt;br/&gt;</qu_text>
+        <qu_ans>a</qu_ans>
+     </record>
+	  <record>
+        <qu_id>12</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these cannot be used as a pronoun?&lt;br/&gt;a. these&lt;br/&gt;b. that&lt;br/&gt;c. those&lt;br/&gt;d. Swati&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     
+     
+     <record>
+        <qu_id>16</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is an adjective?&lt;br/&gt;a. food&lt;br/&gt;b. friendly&lt;br/&gt;c. man&lt;br/&gt;d. colour&lt;br/&gt;</qu_text>
+        <qu_ans>b</qu_ans>
+     </record>
+     
+     <record>
+        <qu_id>11</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is an adverb?&lt;br/&gt;a. beautiful&lt;br/&gt;b. deaf&lt;br/&gt;c. blue&lt;br/&gt;d. politely&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     <record>
+        <qu_id>10</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the preposition of place.&lt;br/&gt;a. because&lt;br/&gt;b. above&lt;br/&gt;c. those&lt;br/&gt;d. them&lt;br/&gt;</qu_text>
+        <qu_ans>b</qu_ans>
+     </record>
+     <record>
+        <qu_id>9</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the adjective from the given words.&lt;br/&gt;a. dark&lt;br/&gt;b. lion&lt;br/&gt;c. guns&lt;br/&gt;d. bed&lt;br/&gt;</qu_text>
+        <qu_ans>a</qu_ans>
+     </record>
+	 <record>
+        <qu_id>8</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>1</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>In the sentence, 'Suddenly, the gingerbread man jumped out of the oven and ran away from the house!',  what is 'and'?&lt;br/&gt;a. a preposition&lt;br/&gt;b. a verb&lt;br/&gt;c. an adjective&lt;br/&gt;d. a conjunction&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+
+	 
+	 
+	 
+	 <!--MTF-->
+	 
+	 
+	 
+    
+	
+	<record>
+        <qu_id>23</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following sentences with their type.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Positive sentence&lt;/td&gt;&lt;td  style="width:400px"&gt;a. Do not close the door.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Negative sentence&lt;/td&gt;&lt;td  style="width:400px"&gt;b. Where is my sister?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. Question&lt;/td&gt;&lt;td  style="width:400px"&gt;c. Wow! Beautiful picture.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Exclamatory&lt;/td&gt;&lt;td  style="width:400px"&gt;d. The song is nice.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. a&lt;br/&gt;3. b&lt;br/&gt;4. c&lt;br/&gt;</qu_ans>
+     </record>
+     <record>
+        <qu_id>22</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following nouns with their gender.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Teacher&lt;/td&gt;&lt;td  style="width:400px"&gt;a. Masculine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Chair&lt;/td&gt;&lt;td  style="width:400px"&gt;b. Feminine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. Heroine&lt;/td&gt;&lt;td  style="width:400px"&gt;c. Common&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Lion&lt;/td&gt;&lt;td  style="width:400px"&gt;d. Neuter&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. c&lt;br/&gt;2. d&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+     <record>
+        <qu_id>21</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following proper nouns with what they describe.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. January&lt;/td&gt;&lt;td  style="width:400px"&gt;a. Place&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Monday&lt;/td&gt;&lt;td  style="width:400px"&gt;b. People&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. Mrs Rai&lt;/td&gt;&lt;td  style="width:400px"&gt;c. Month&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Punjab&lt;/td&gt;&lt;td  style="width:400px"&gt;d. Day&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. c&lt;br/&gt;2. d&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 <record>
+        <qu_id>20</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the sentences appropriately.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Suhani is a chef. &lt;/td&gt;&lt;td  style="width:400px"&gt;a. I can't play outside.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. It is raining.&lt;/td&gt;&lt;td  style="width:400px"&gt;b. Can you give me a pencil?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. I forgot to bring my pencil box.&lt;/td&gt;&lt;td  style="width:400px"&gt;c. She can bake a cake.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. This is a Chemist shop.&lt;/td&gt;&lt;td  style="width:400px"&gt;d. You can't buy books here.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. c&lt;br/&gt;2. a&lt;br/&gt;3. b&lt;br/&gt;4. d&lt;br/&gt;</qu_ans>
+     </record>
+	
+	
+	
+	<record>
+        <qu_id>19</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the incomplete sentences to make plans.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. I am going to &lt;/td&gt;&lt;td  style="width:400px"&gt;a. helping Ravi.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. I am playing &lt;/td&gt;&lt;td  style="width:400px"&gt;b. home.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. I am staying at&lt;/td&gt;&lt;td  style="width:400px"&gt;c. watch a movie.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. We will be &lt;/td&gt;&lt;td  style="width:400px"&gt;d. with Suman.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. c&lt;br/&gt;2. d&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+     <record>
+        <qu_id>18</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following to complete the sentences.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Can you help&lt;/td&gt;&lt;td  style="width:400px"&gt;a. that new television show.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Can you show&lt;/td&gt;&lt;td  style="width:400px"&gt;b. me carry the luggage?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. I'd like to watch&lt;/td&gt;&lt;td  style="width:400px"&gt;c. her for the question papers?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Can I ask&lt;/td&gt;&lt;td  style="width:400px"&gt;d. me the way to the school?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. b&lt;br/&gt;2. d&lt;br/&gt;3. a&lt;br/&gt;4. c&lt;br/&gt;</qu_ans>
+     </record>
+	  <record>
+        <qu_id>17</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following images with the adjectives that describe them.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. &lt;img src="content/graphics/36_1.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;a. Let's build a snowman as it's snowing.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. &lt;img src="content/graphics/36_2.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;b. It's windy! Your umbrella will blow away in the wind.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. &lt;img src="content/graphics/36_3.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;c. Let's go to the beach as it's sunny.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. &lt;img src="content/graphics/36_4.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;d. It's raining! Want to go for a walk in the rain?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 
+     
+     
+	 <record>
+        <qu_id>31</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the questions with the answers.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Where were you in the morning?&lt;/td&gt;&lt;td  style="width:400px"&gt;a. She was wearing a coat.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. What was she wearing?&lt;/td&gt;&lt;td  style="width:400px"&gt;b. He was at his shop.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. Were they interested?&lt;/td&gt;&lt;td  style="width:400px"&gt;c. I was at school.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Where was the shopkeeper?&lt;/td&gt;&lt;td  style="width:400px"&gt;d. They weren't interested.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. c&lt;br/&gt;2. a&lt;br/&gt;3. d&lt;br/&gt;4. b&lt;br/&gt;</qu_ans>
+     </record>
+     <record>
+        <qu_id>30</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following images with their description.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. &lt;img src="content/graphics/48_1.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;a. We bought fruits yesterday.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. &lt;img src="content/graphics/48_2.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;b. We won the tournament yesterday.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. &lt;img src="content/graphics/ID_184406996.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;c. She walked to school yesterday.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. &lt;img src="content/graphics/ID_146625749.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;d. She played cricket yesterday.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 
+	 
+	 
+	 
+	 <record>
+        <qu_id>29</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the words in the columns to complete the sentences.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. a&lt;/td&gt;&lt;td  style="width:400px"&gt;a. Himalayas&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. an&lt;/td&gt;&lt;td  style="width:400px"&gt;b. ball&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. the&lt;/td&gt;&lt;td  style="width:400px"&gt;c. orange&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. b&lt;br/&gt;2. c&lt;br/&gt;3. a&lt;br/&gt;</qu_ans>
+     </record>
+     
+     <record>
+        <qu_id>28</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the following images with the personal pronouns.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. &lt;img src="content/graphics/55_1.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;a. it&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. &lt;img src="content/graphics/55_2.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;b. she&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. &lt;img src="content/graphics/55_3.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;c. he&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. &lt;img src="content/graphics/55_4.png" style="vertical-align:middle;"" width="" height=""&gt;&lt;br/&gt;&lt;/td&gt;&lt;td  style="width:400px"&gt;d. I&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 <record>
+        <qu_id>27</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the columns to make correct sentences.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. It has been a&lt;/td&gt;&lt;td  style="width:400px"&gt;a. in the old camp.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. She was wearing a pair of &lt;/td&gt;&lt;td  style="width:400px"&gt;b. the cold water.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. The girl fell in&lt;/td&gt;&lt;td  style="width:400px"&gt;c. blue jeans.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. They were sitting&lt;/td&gt;&lt;td  style="width:400px"&gt;d. hot day.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 <record>
+        <qu_id>26</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the sentences halves.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. Radha is slow. &lt;/td&gt;&lt;td  style="width:400px"&gt;a. She does her job quietly.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Ram is careful.&lt;/td&gt;&lt;td  style="width:400px"&gt;b. He plays the sitar well.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. Rakesh is a nice sitar player.&lt;/td&gt;&lt;td  style="width:400px"&gt;c. He drives carefully.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Sima is a quiet girl.&lt;/td&gt;&lt;td  style="width:400px"&gt;d. She walks slowly.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 
+     <record>
+        <qu_id>25</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the columns to make correct sentences.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. The man called his son&lt;/td&gt;&lt;td  style="width:400px"&gt;a. on their beds.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. There was no vehicle&lt;/td&gt;&lt;td  style="width:400px"&gt;b. in the water.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. A fly fell &lt;/td&gt;&lt;td  style="width:400px"&gt;c. on the road.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. They are sleeping&lt;/td&gt;&lt;td  style="width:400px"&gt;d. in his room.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+     <record>
+        <qu_id>24</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the sentence halves based on the conjunctions that are used.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. My child is intelligent&lt;/td&gt;&lt;td  style="width:400px"&gt;a. but it was a holiday.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. I helped her&lt;/td&gt;&lt;td  style="width:400px"&gt;b. so she was crying.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. The baby did not have milk,&lt;/td&gt;&lt;td  style="width:400px"&gt;c. because she was in trouble.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. I wanted to go to school, &lt;/td&gt;&lt;td  style="width:400px"&gt;d. and healthy.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+     
+     
+     <record>
+        <qu_id>32</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>2</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Match the columns to make correct sentences.&lt;br/&gt;&lt;table&gt;&lt;col width="400px"&gt;&lt;col width="400px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;1. A horse saw &lt;/td&gt;&lt;td  style="width:400px"&gt;a. threw him up into the air.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;2. Then the gingerbread man&lt;/td&gt;&lt;td  style="width:400px"&gt;b. on to the fox’s back.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;3. So, the gingerbread man jumped&lt;/td&gt;&lt;td  style="width:400px"&gt;c. came to a river.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td  style="width:400px"&gt;4. Suddenly, the fox&lt;/td&gt;&lt;td  style="width:400px"&gt;d. him and shouted.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</qu_text>
+        <qu_ans>1. d&lt;br/&gt;2. c&lt;br/&gt;3. b&lt;br/&gt;4. a&lt;br/&gt;</qu_ans>
+     </record>
+	 
+	 
+	 
+	 <!--True/False-->
+	 
+	 <record>
+        <qu_id>40</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The predicate tells us something about that person or thing in a sentence.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+     <record>
+        <qu_id>39</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>A noun is a name for a person, a place, an animal or a thing.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	 <record>
+        <qu_id>38</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Proper nouns always begin with a capital letter.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	  <record>
+        <qu_id>37</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>'Mohit can go for picnic yesterday.' depicts the correct usage of can. &lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+	 <record>
+        <qu_id>36</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Verbs are doing words.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	 <record>
+        <qu_id>35</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We use can you + verb to give order to someone.&lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+	  <record>
+        <qu_id>34</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>When we say 'it's foggy' it means that it is raining.  &lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+     <record>
+        <qu_id>33</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text> 'We was very angry.' shows the correct usage of &lt;i&gt;was&lt;/i&gt;. &lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+    
+	 <record>
+        <qu_id>47</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;i&gt;Irregular verbs&lt;/i&gt; change their spelling completely in the past form.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+     <record>
+        <qu_id>46</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We use &lt;i&gt;a&lt;/i&gt; before a word that starts with &lt;i&gt;u&lt;/i&gt; when it is
+pronounced ‘you’.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	 <record>
+        <qu_id>45</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;i&gt;That&lt;/i&gt; is a personal pronoun. &lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+	
+	<record>
+        <qu_id>48</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Words that describe people or things are called adjectives.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	
+	
+	<record>
+        <qu_id>44</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Some adverbs tell us when something happens.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+	<record>
+        <qu_id>43</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We use &lt;b&gt;There is + a&lt;/b&gt; or an for more than one person or thing.&lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+      <record>
+        <qu_id>42</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The words &lt;i&gt;and, but, so, because&lt;/i&gt; are used to join two parts of a sentence.&lt;br/&gt;</qu_text>
+        <qu_ans>True</qu_ans>
+     </record>
+     <record>
+        <qu_id>41</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>3</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>It was a happy ending for the gingerbread man.&lt;br/&gt;</qu_text>
+        <qu_ans>False</qu_ans>
+     </record>
+    
+     <!--FIB-->
+          <record>
+        <qu_id>61</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ the book on the table. &lt;i&gt;(Keep, Do not keep)&lt;/i&gt;</qu_text>
+        <qu_ans>Do not keep</qu_ans>
+     </record>
+     <record>
+        <qu_id>62</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The children ______ in the house. &lt;i&gt;(are there, are not there)&lt;/i&gt;</qu_text>
+        <qu_ans>are not there</qu_ans>
+     </record>
+     <record>
+        <qu_id>63</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ a plastic monkey. &lt;i&gt;(I have, I do not have)&lt;/i&gt;</qu_text>
+        <qu_ans>I do not have</qu_ans>
+     </record>
+	 
+	 
+	 
+	 
+	 
+	 <record>
+        <qu_id>55</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Hari is a painter. He ______ paint well. &lt;i&gt;(can, can't)&lt;/i&gt;</qu_text>
+        <qu_ans>can</qu_ans>
+     </record>
+     <record>
+        <qu_id>56</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Shikha is unwell. She ______ play today. (can, can't)</qu_text>
+        <qu_ans>can't</qu_ans>
+     </record>
+     <record>
+        <qu_id>57</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Donna lives in France. She ______  speak French.  </qu_text>
+        <qu_ans>can</qu_ans>
+     </record>
+     <record>
+        <qu_id>58</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Today is my birthday. ______ (can, can't) I go and party with my friends. </qu_text>
+        <qu_ans>can</qu_ans>
+     </record>
+     <record>
+        <qu_id>59</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Janet is American. She ______  (can, can't) understand Hindi.</qu_text>
+        <qu_ans>can't</qu_ans>
+     </record>
+     <record>
+        <qu_id>60</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>My hand is injured. I ______ (can, can't) write properly.</qu_text>
+        <qu_ans>can't</qu_ans>
+     </record>
+	 
+    
+	 
+     
+     
+     <record>
+        <qu_id>49</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ do me a favour? (I'd like you, Can you)</qu_text>
+        <qu_ans>Can you</qu_ans>
+     </record>
+     <record>
+        <qu_id>50</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ to have a pet dog. (Can I, I'd like)</qu_text>
+        <qu_ans>I'd like</qu_ans>
+     </record>
+     <record>
+        <qu_id>51</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ to drink a glass of water. (Can I, I'd like)</qu_text>
+        <qu_ans>I'd like</qu_ans>
+     </record>
+     <record>
+        <qu_id>52</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ to buy a new shirt. (I'd like, Can I)</qu_text>
+        <qu_ans>I'd like</qu_ans>
+     </record>
+     <record>
+        <qu_id>53</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ pick me up in the morning? (I'd want, Can you)</qu_text>
+        <qu_ans>Can you</qu_ans>
+     </record>
+     <record>
+        <qu_id>54</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ to go on the school trip. (Can you, I'd like)</qu_text>
+        <qu_ans>I'd like</qu_ans>
+     </record>
+     
+	 <record>
+        <qu_id>100</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ are you wearing today?  (What, Who)</qu_text>
+        <qu_ans>What</qu_ans>
+     </record>
+     <record>
+        <qu_id>101</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ are you crying?  (Who, Why)</qu_text>
+        <qu_ans>Why</qu_ans>
+     </record>
+     <record>
+        <qu_id>102</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ will you come home?  (What, When)</qu_text>
+        <qu_ans>When</qu_ans>
+     </record>
+     <record>
+        <qu_id>103</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ are you going?  (What, Where)</qu_text>
+        <qu_ans>Where</qu_ans>
+     </record>
+     <record>
+        <qu_id>104</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ don't you listen to your mother?  (Where, Why)</qu_text>
+        <qu_ans>Why</qu_ans>
+     </record>
+     <record>
+        <qu_id>105</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ are you talking to?  (When, Who)</qu_text>
+        <qu_ans>Who</qu_ans>
+     </record>
+	 
+	 
+	 
+	  <record>
+        <qu_id>97</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>They ______ curious to know the answer.</qu_text>
+        <qu_ans>were</qu_ans>
+     </record>
+     <record>
+        <qu_id>98</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>He ______ upset with me.</qu_text>
+        <qu_ans>was</qu_ans>
+     </record>
+     <record>
+        <qu_id>99</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I had a headache. I ______ feeling well.</qu_text>
+        <qu_ans>wasn't</qu_ans>
+     </record>
+     <record>
+        <qu_id>91</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I ______ my clothes yesterday. (wash, washed)</qu_text>
+        <qu_ans>washed</qu_ans>
+     </record>
+     <record>
+        <qu_id>92</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I ______ a pizza yesterday. (ate, eat)</qu_text>
+        <qu_ans>ate</qu_ans>
+     </record>
+     <record>
+        <qu_id>93</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I ______ to the mall yesterday. (go, went)</qu_text>
+        <qu_ans>went</qu_ans>
+     </record>
+     <record>
+        <qu_id>94</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I ______ my flight yesterday. (miss, missed)</qu_text>
+        <qu_ans>missed</qu_ans>
+     </record>
+     <record>
+        <qu_id>95</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>She ______ me for a pen yesterday. (asked, ask)</qu_text>
+        <qu_ans>asked</qu_ans>
+     </record>
+     <record>
+        <qu_id>96</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>They ______ a movie yesterday. (watch, watched)</qu_text>
+        <qu_ans>watched</qu_ans>
+     </record>
+     <record>
+        <qu_id>88</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>This is ______ interesting book. (a, an)</qu_text>
+        <qu_ans>an</qu_ans>
+     </record>
+     <record>
+        <qu_id>89</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>He lives near ______ Taj Mahal.  (a, the)</qu_text>
+        <qu_ans>the</qu_ans>
+     </record>
+     <record>
+        <qu_id>90</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>She was wearing ______ new dress yesterday.  (an, a)</qu_text>
+        <qu_ans>a</qu_ans>
+     </record>
+	 <record>
+        <qu_id>82</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ play football. (I, He)</qu_text>
+        <qu_ans>I </qu_ans>
+     </record>
+     <record>
+        <qu_id>83</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ is my dog. (This, These)</qu_text>
+        <qu_ans>This</qu_ans>
+     </record>
+     <record>
+        <qu_id>84</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>______ live in a small house.  (We, She)</qu_text>
+        <qu_ans>We</qu_ans>
+     </record>
+     <record>
+        <qu_id>85</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Karan always eats sweets. I think ______ is fond of them.  (she, he)</qu_text>
+        <qu_ans>he</qu_ans>
+     </record>
+     <record>
+        <qu_id>86</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Karan is reading a book. He thinks ______ is interesting. (she, it)</qu_text>
+        <qu_ans>it</qu_ans>
+     </record>
+     <record>
+        <qu_id>87</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Pooja is Karan's sister. ______ is elder to him. (It, She)</qu_text>
+        <qu_ans>She</qu_ans>
+     </record>
+	 
+	 <record>
+        <qu_id>76</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Ram walks ______.  (slowly, politely)</qu_text>
+        <qu_ans>slowly</qu_ans>
+     </record>
+     <record>
+        <qu_id>77</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The child was crying ______. (loudly, happily)</qu_text>
+        <qu_ans>loudly</qu_ans>
+     </record>
+     <record>
+        <qu_id>78</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The man was driving ______. (carefully, soon)</qu_text>
+        <qu_ans>carefully</qu_ans>
+     </record>
+     <record>
+        <qu_id>79</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We went to the market ______. (tomorrow, today)</qu_text>
+        <qu_ans>today</qu_ans>
+     </record>
+     <record>
+        <qu_id>80</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The kids were fighting over ______.  (there, outside)</qu_text>
+        <qu_ans>there</qu_ans>
+     </record>
+     <record>
+        <qu_id>81</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We will clean our rooms ______. (soon, late)</qu_text>
+        <qu_ans>soon</qu_ans>
+     </record>
+	 <record>
+        <qu_id>72</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Deepa was playing ______ the park. &lt;i&gt;(in, over)&lt;/i&gt;</qu_text>
+        <qu_ans>in</qu_ans>
+     </record>
+     <record>
+        <qu_id>73</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>They jumped ______ the moving train. &lt;i&gt;(from, through)&lt;/i&gt;</qu_text>
+        <qu_ans>from</qu_ans>
+     </record>
+     <record>
+        <qu_id>74</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Raj was standing ______ Jaya and Mala. &lt;i&gt;(on, between, in)&lt;/i&gt;</qu_text>
+        <qu_ans>between</qu_ans>
+     </record>
+     <record>
+        <qu_id>75</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>He is swimming ______ the river. &lt;i&gt;(in, above)&lt;/i&gt;</qu_text>
+        <qu_ans>above</qu_ans>
+     </record>
+	 
+
+     <record>
+        <qu_id>64</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>They ______ waiting for you. &lt;i&gt;(are, is)&lt;/i&gt;</qu_text>
+        <qu_ans>are</qu_ans>
+     </record>
+     <record>
+        <qu_id>65</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Atul ______ waiting for his father. &lt;i&gt;(are, is)&lt;/i&gt;</qu_text>
+        <qu_ans>is</qu_ans>
+     </record>
+     <record>
+        <qu_id>66</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Seema ______ watching television. &lt;i&gt;(are, is)&lt;/i&gt;</qu_text>
+        <qu_ans>is</qu_ans>
+     </record>
+     <record>
+        <qu_id>67</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We ______ in the same class. &lt;i&gt;(are, is)&lt;/i&gt;</qu_text>
+        <qu_ans>are</qu_ans>
+     </record>
+     <record>
+        <qu_id>68</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>They must ______ how to speak Spanish. &lt;i&gt;(learn, learned)&lt;/i&gt;</qu_text>
+        <qu_ans>learn</qu_ans>
+     </record>
+     <record>
+        <qu_id>69</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I have ______ your car. &lt;i&gt;(wash, washed)&lt;/i&gt;</qu_text>
+        <qu_ans>washed</qu_ans>
+     </record>
+     <record>
+        <qu_id>70</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The thief ______ of the window. &lt;i&gt;(jump, jumped)&lt;/i&gt;</qu_text>
+        <qu_ans>jumped</qu_ans>
+     </record>
+     <record>
+        <qu_id>71</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>I ______ to learn driving. &lt;i&gt;(want, wanted)&lt;/i&gt;</qu_text>
+        <qu_ans>want</qu_ans>
+     </record>
+     
+    
+     
+     <record>
+        <qu_id>106</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>We are going ______ the circus. &lt;i&gt;(to, by)&lt;/i&gt;</qu_text>
+        <qu_ans>to</qu_ans>
+     </record>
+     <record>
+        <qu_id>107</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>She ______ coming to my wedding. &lt;i&gt;(are, is)&lt;/i&gt;</qu_text>
+        <qu_ans>is</qu_ans>
+     </record>
+     <record>
+        <qu_id>108</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Anchal ______ me out of her house. &lt;i&gt;(chase, chased)&lt;/i&gt;</qu_text>
+        <qu_ans>chased</qu_ans>
+     </record>
+     <record>
+        <qu_id>109</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>7</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>The cat will ______ the mouse. &lt;i&gt;(catch, catched)&lt;/i&gt;</qu_text>
+        <qu_ans>catch</qu_ans>
+     </record>
+	 
+	 
+	 
+	 <!--ATQ-Short-->
+	 
+	 
+	 
+	 
+	 
+	 <record>
+        <qu_id>116</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What is a sentence?&lt;br/&gt;</qu_text>
+        <qu_ans>A sentence is a group of words that makes sense.
+</qu_ans> </record>
+     <record>
+        <qu_id>115</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What is a noun?&lt;br/&gt;</qu_text>
+        <qu_ans>A noun is a name for a person, a place, an animal or a thing.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>114</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What are proper nouns?&lt;br/&gt;</qu_text>
+        <qu_ans>Proper nouns are nouns that begin with a capital letter. We use proper nouns for the names of specific people and places.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>113</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Why do we use 'can'?&lt;br/&gt;</qu_text>
+        <qu_ans>We use can for talking about ability.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>112</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What are verbs? Give an example.&lt;br/&gt;</qu_text>
+        <qu_ans>Verbs are doing words.
+&lt;i&gt;Playing&lt;/i&gt; is an example of verb.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>111</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What is a request?&lt;br/&gt;</qu_text>
+        <qu_ans>A request is to politely ask someone to do something for us.</qu_ans>
+     </record>
+     <record>
+        <qu_id>110</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>When we want to know about the weather, what question do we ask?&lt;br/&gt;</qu_text>
+        <qu_ans>What's the weather like?</qu_ans>
+     </record>
+     <record>
+        <qu_id>124</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Change the following sentence into a question. 
+'They were not laughing.' &lt;br/&gt;</qu_text>
+        <qu_ans>Were they not laughing?</qu_ans>
+     </record>
+     <record>
+        <qu_id>123</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>How do we ask questions in the past tense?&lt;br/&gt;</qu_text>
+        <qu_ans>We ask questions in the past tense with &lt;i&gt; Did&lt;/i&gt;.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>122</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>When do we use the determiner some?&lt;br/&gt;</qu_text>
+        <qu_ans>We use some to talk about more than one person or thing.</qu_ans>
+     </record>
+     <record>
+        <qu_id>121</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Why do we use a pronoun?&lt;br/&gt;</qu_text>
+        <qu_ans>We use a pronoun to avoid repetition of a noun.</qu_ans>
+     </record>
+     
+     <record>
+        <qu_id>120</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What is an adjective?&lt;br/&gt;</qu_text>
+        <qu_ans>An adjective is a word that is used to describe people or things.</qu_ans>
+     </record>
+	 
+     <record>
+        <qu_id>119</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What are the words that tell us how something happens called?&lt;br/&gt;</qu_text>
+        <qu_ans>Adverbs </qu_ans>
+     </record>
+    <record>
+        <qu_id>118</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Why do we use &lt;b&gt;There are + some&lt;/b&gt; ?&lt;br/&gt;</qu_text>
+        <qu_ans>We use There are + some for more than one person or thing.</qu_ans>
+     </record>
+     <record>
+        <qu_id>117</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Why are conjunctions used?&lt;br/&gt;</qu_text>
+        <qu_ans>Conjunctions are used to join the two parts of a sentence.</qu_ans>
+     </record>
+     
+     
+     <record>
+        <qu_id>125</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>10</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What did the gingerbread man always sing?&lt;br/&gt;</qu_text>
+        <qu_ans>‘Run, run, as fast as you can! You can’t catch me, I’m the gingerbread man!’</qu_ans>
+     </record>
+	 
+	 
+	 <!--ATQ-Long-->
+	 
+	 
+     
+     <record>
+        <qu_id>141</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What part in a sentence tells us who or what the sentence is about?&lt;br/&gt;</qu_text>
+        <qu_ans>Subject</qu_ans>
+     </record>
+     <record>
+        <qu_id>132</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text> 'Boxes' is a singular or a plural noun?&lt;br/&gt;</qu_text>
+        <qu_ans>plural noun</qu_ans>
+     </record>
+     <record>
+        <qu_id>131</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Is 'Boy' a proper noun or common noun?&lt;br/&gt;</qu_text>
+        <qu_ans>Common noun</qu_ans>
+     </record>
+	 <record>
+        <qu_id>130</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What can a swimmer do?&lt;br/&gt;</qu_text>
+        <qu_ans>A swimmer can swim.</qu_ans>
+     </record>
+     <record>
+        <qu_id>129</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;i&gt;Meeting&lt;/i&gt; is a verb. Yes or no?&lt;br/&gt;</qu_text>
+        <qu_ans>Yes</qu_ans>
+     </record>
+	 <record>
+        <qu_id>128</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>How can we make a request when we are telling someone what we want?&lt;br/&gt;</qu_text>
+        <qu_ans>By using &lt;b&gt;I'd like + to have&lt;/b&gt; in the beginning of the sentence.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>127</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What do we say when we have to tell someone that the sky is clear and the sun is out?&lt;br/&gt;</qu_text>
+        <qu_ans>It's sunny.</qu_ans>
+     </record>
+	 <record>
+        <qu_id>126</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Complete the question 'Where ______ you?'.&lt;br/&gt;</qu_text>
+        <qu_ans>were</qu_ans>
+     </record>
+	 
+	  <record>
+        <qu_id>140</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What do we add when a regular verb ends in &lt;i&gt;e&lt;/i&gt; to make the past form of a verb?&lt;br/&gt;</qu_text>
+        <qu_ans>We add &lt;i&gt;d&lt;/i&gt;.</qu_ans>
+     </record>
+     <record>
+        <qu_id>139</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which determiner do we use for negatives and questions?&lt;br/&gt;</qu_text>
+        <qu_ans>Any</qu_ans>
+     </record>
+     <record>
+        <qu_id>138</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What are pronouns that are used to talk about specific people or things called?&lt;br/&gt;</qu_text>
+        <qu_ans>Personal pronouns</qu_ans>
+     </record>
+	 <record>
+        <qu_id>137</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Write the opposite of the underlined word in the following sentence, 'Our teacher is quite &lt;u&gt;old&lt;/u&gt;.'&lt;br/&gt;</qu_text>
+        <qu_ans>Young.
+
+</qu_ans>
+     </record>
+	 
+	 
+     <record>
+        <qu_id>136</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text> 'Mrs Desai walks slowly.' What is the adverb in this sentence?&lt;br/&gt;</qu_text>
+        <qu_ans>slowly</qu_ans>
+     </record>
+     
+      <record>
+        <qu_id>135</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;i&gt;Next to&lt;/i&gt; is a preposition of place. Yes or no?&lt;br/&gt;</qu_text>
+        <qu_ans>Yes</qu_ans>
+     </record>
+     <record>
+        <qu_id>134</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>What do we use in place of nouns to avoid repeating the noun?&lt;br/&gt;</qu_text>
+        <qu_ans>Pronouns</qu_ans>
+     </record>
+	 <record>
+        <qu_id>133</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>11</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Who ate the gingerbread man?&lt;br/&gt;</qu_text>
+        <qu_ans>The fox</qu_ans>
+     </record>
+	 
+    
+    
+	 
+     <!--OOO_MCQ-->
+     
+     
+	 
+	 
+	 
+	 <record>
+        <qu_id>148</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the option that is not a question.&lt;br/&gt;a. Is he young? &lt;br/&gt;b. Is it cold outside? &lt;br/&gt;c. Will you dance? &lt;br/&gt;d. Aha! I love gulabjamuns.&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     <record>
+        <qu_id>147</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the option that is not a noun.&lt;br/&gt;a. Saba &lt;br/&gt;b. Play &lt;br/&gt;c. Hand &lt;br/&gt;d. Dog&lt;br/&gt;</qu_text>
+        <qu_ans>b</qu_ans>
+     </record>
+     
+     <record>
+        <qu_id>146</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the proper noun that is not written correctly.&lt;br/&gt;a. Suman &lt;br/&gt;b. Mumbai &lt;br/&gt;c. delhi&lt;br/&gt;d. May&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	 <record>
+        <qu_id>145</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the option that depicts the incorrect usage of the modal verb 'can'.&lt;br/&gt;a. Can I come? &lt;br/&gt; b. You can go. &lt;br/&gt;c. She can come yesterday. &lt;br/&gt;d. Akshay can swim. &lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	 
+    <record>
+        <qu_id>144</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the option that is not in the present continuous form.&lt;br/&gt;a. Playing&lt;br/&gt;b. Singing&lt;br/&gt;c. Dance&lt;br/&gt;d. Driving&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+     <record>
+        <qu_id>143</qu_id>
+        <qu_ch_id>6</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the word that we use after 'Can you' to ask someone to do something for us.&lt;br/&gt;a. verb&lt;br/&gt;b. noun&lt;br/&gt;c. adjective&lt;br/&gt;d. pronoun&lt;br/&gt;</qu_text>
+        <qu_ans>a</qu_ans>
+     </record>
+	  <record>
+        <qu_id>142</qu_id>
+        <qu_ch_id>7</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the word that does not start with &lt;i&gt;wh-.&lt;/i&gt;&lt;br/&gt;a. What&lt;br/&gt;b. Why&lt;br/&gt;c. Who&lt;br/&gt;d. How&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+	 
+	 <record>
+        <qu_id>156</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Choose the option that depicts the incorrect usage of the modal verb 'were'.&lt;br/&gt;a. We were eight players. &lt;br/&gt; b. You were wrong. &lt;br/&gt;c. She were sad. &lt;br/&gt;d. Akshay and Manish were best friends. &lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+     <record>
+        <qu_id>155</qu_id>
+        <qu_ch_id>9</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the odd verb out.&lt;br/&gt;a. miss&lt;br/&gt;b. ask&lt;br/&gt;c. watch&lt;br/&gt;d. break&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     <record>
+        <qu_id>154</qu_id>
+        <qu_ch_id>10</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the odd one out.&lt;br/&gt;a. an honest man&lt;br/&gt;b. an egg&lt;br/&gt;c. an hat&lt;br/&gt;d. an animal&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	  <record>
+        <qu_id>153</qu_id>
+        <qu_ch_id>11</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the option which is not a personal pronoun.&lt;br/&gt;a. I&lt;br/&gt;b. we&lt;br/&gt;c. it&lt;br/&gt;d. this&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     <record>
+        <qu_id>157</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these is not a pair of opposites?&lt;br/&gt;a. Soft-Hard&lt;br/&gt;b. Long-Short &lt;br/&gt;c. Dark-Black&lt;br/&gt;d. Old-Young&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	 <record>
+        <qu_id>152</qu_id>
+        <qu_ch_id>13</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the odd word out.&lt;br/&gt;a. today&lt;br/&gt;b. tomorrow&lt;br/&gt;c. everywhere&lt;br/&gt;d. soon&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	 
+	 <record>
+        <qu_id>151</qu_id>
+        <qu_ch_id>14</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the option which is not a preposition of place.&lt;br/&gt;a. under&lt;br/&gt;b. over&lt;br/&gt;c. because&lt;br/&gt;d. between&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+	 <record>
+        <qu_id>150</qu_id>
+        <qu_ch_id>15</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Select the option which is not a preposition.&lt;br/&gt;a. at&lt;br/&gt;b. between&lt;br/&gt;c. because&lt;br/&gt;d. under&lt;br/&gt;</qu_text>
+        <qu_ans>c</qu_ans>
+     </record>
+     <record>
+        <qu_id>149</qu_id>
+        <qu_ch_id>16</qu_ch_id>
+        <qu_ca_id>12</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>Which of these was not there in the story?&lt;br/&gt;a. old man&lt;br/&gt;b. old woman&lt;br/&gt;c. gingerbread man&lt;br/&gt;d. hare&lt;br/&gt;</qu_text>
+        <qu_ans>d</qu_ans>
+     </record>
+     
+     
+     
+    
+	 
+     <!--FIB with options-->
+     <record>
+        <qu_id>165</qu_id>
+        <qu_ch_id>1</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;do not   |   does not&lt;/b&gt;&lt;br/&gt;She ______ like it.
+I ______ want to talk to you.
+He ______ play with me.
+The teacher ______ punish students.
+I ______ talk much.</qu_text>
+        <qu_ans>does not~do not~does not~does not~do not</qu_ans>
+     </record>
+     
+	 <record>
+        <qu_id>164</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;masculine   |   feminine   |   neuter&lt;/b&gt;&lt;br/&gt;Pen is a ______ gender.
+Dog is a ______ gender.
+Nurse is a ______ gender.</qu_text>
+        <qu_ans>neuter~masculine~feminine</qu_ans>
+     </record>
+	 
+	 <record>
+        <qu_id>166</qu_id>
+        <qu_ch_id>2</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;bottle   |   apple   |   zoo&lt;/b&gt;&lt;br/&gt;My sister loves to eat an ______.
+We will visit the ______.
+I will buy a ______.</qu_text>
+        <qu_ans>apple~zoo~bottle</qu_ans>
+     </record>
+	 
+	 
+	 
+	   <record>
+        <qu_id>162</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;Friday   |   Noida   |   Raj&lt;/b&gt;&lt;br/&gt;She lives in ______.
+I am waiting for my friend ______.
+Tomorrow is ______.
+</qu_text>
+        <qu_ans>Noida~Raj~Friday</qu_ans>
+     </record>
+     <record>
+        <qu_id>163</qu_id>
+        <qu_ch_id>3</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;Seema   |   February   |   Sunday&lt;/b&gt;&lt;br/&gt;My birthday is in ______.
+Can you come on ______ ?
+______ is my sister.</qu_text>
+        <qu_ans>February~Sunday~Seema</qu_ans>
+     </record>
+	 
+<record>
+        <qu_id>161</qu_id>
+        <qu_ch_id>4</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;can't   |   can   |   Can you&lt;/b&gt;&lt;br/&gt;Clouds are dark. It ______ rain.
+The weather is stormy. I ______ go out and play.
+______ help me in my homework?</qu_text>
+        <qu_ans>can~can't~Can you</qu_ans>
+     </record>
+     <record>
+        <qu_id>159</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;watching   |   stay   |   running&lt;/b&gt;&lt;br/&gt;I will be ______ in the morning.
+We will be ______ a new show on television.
+I am going to ______ with my mother.</qu_text>
+        <qu_ans>running~watching~stay</qu_ans>
+     </record>
+     <record>
+        <qu_id>160</qu_id>
+        <qu_ch_id>5</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;drawing   |   celebrating   |   living&lt;/b&gt;&lt;br/&gt;I will be ______ her birthday.
+We will be ______ together.
+I am ______ her face.</qu_text>
+        <qu_ans>celebrating~living~drawing</qu_ans>
+     </record>
+	 <record>
+        <qu_id>158</qu_id>
+        <qu_ch_id>8</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;was   |   were   |   wasn't&lt;/b&gt;&lt;br/&gt;Yes, he ______ well.
+She was in pain. She ______ happy.
+Yes, they ______ excited.</qu_text>
+        <qu_ans>was~wasn't~were</qu_ans>
+     </record>
+	 
+     
+     <record>
+        <qu_id>167</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;narrow   |   red   |   furry&lt;/b&gt;&lt;br/&gt;The ______ cat sleeps all the time. 
+The car could not enter the ______ street.
+I love your ______ shirt.</qu_text>
+        <qu_ans>furry~red~narrow</qu_ans>
+     </record>
+     <record>
+        <qu_id>168</qu_id>
+        <qu_ch_id>12</qu_ch_id>
+        <qu_ca_id>8</qu_ca_id>
+        <qu_tag>BOOKQUESTION</qu_tag>
+        <qu_text>&lt;b&gt;long   |   friendly   |   expensive&lt;/b&gt;&lt;br/&gt;He is very ______.
+The shoes are too ______.
+Your hair is so ______.</qu_text>
+        <qu_ans>friendly~expensive~long</qu_ans>
+     </record>
+    </records>
+  </table>
+</database>
