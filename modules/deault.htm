@@ -1,0 +1,513 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title></title>
+		<script src='jquery/jquery.js' type="text/javascript"></script>
+		<script src='jquery/jquery-ui.custom.js' type="text/javascript"></script>
+		<script src='jquery/jquery.cookie.js' type="text/javascript"></script>
+		<script src="jquery/jquery.xml2json.js"></script>
+		<script src="jquery/jquery.linq.js"></script>
+		<script src="jquery/linq.js"></script>
+
+		<script type="text/javascript" src="./libs/jszip-master/dist/jszip.js"></script>
+		<script src="scripts/dbinteractions.js" type="text/javascript"></script>
+		<script src="scripts/jquery.numeric.js" type="text/javascript" ></script>
+		<!-- Include main js lib
+		<script type="text/javascript" src="DOCX.js"></script>-->
+
+		<script src="scripts/testGenerator.js" type="text/javascript"></script>
+		<link rel='stylesheet' type='text/css' href='content/css/questionbank.css'/>
+		<link rel='stylesheet' type='text/css' href='content/css/mainsheet.css'/>
+		<link rel='stylesheet' type='text/css' href='content/css/testgenerator.css'/>
+	</head>
+
+	<body>
+        <div id = "tempPreview" style="display:none;"></div>
+		<div class="mainDiv">
+
+			<input id="txtImages" type="hidden" />
+
+			<div id="overlay" class="overlay"></div>
+			
+			<div id="selected_more" class="confirm_selection">
+				<div id="selected_more_text" class="select_question_conf_text">
+				</div>
+			</div>
+
+			<div id="HelpClickDiv" class="help_outer" >
+
+				<div style=" padding: 8px 0;width: 100%;">
+					Clicking on Submit will save this Test as the fifth test and this will start appearing in Recently Saved list. The first test in the list will get deleted. Are you sure?
+				</div>
+
+				<div class="buttons_bottom">
+					<input type="button" onclick="downloadsection_popup_fadeout()" class="save_button_active" value="No">
+
+					<input id="chapter_book_button" type="button" onclick="downloadsection_popup_savetest()" class="save_button_active" value="Yes">
+				</div>
+			</div>
+
+			<div id ="confirm_selection" class="confirm_selection">
+				<div class="confirm_selection_heading">
+					Confirm to Proceed
+				</div>
+				<div id="confirm_section_text" class="confirm_selection_body">
+					Changing the view will clear all selection, do you want to continue?
+				</div>
+
+				<div class="buttons_bottom">
+					<input type="button" onclick="Overlaydismiss()" class="confirm_button_active" value="No">
+					<input id="chapter_book_buttons" type="button" onclick="StartNewXam()" class="confirm_button_active no_display" value="Yes">
+					<input id="manual_button" type="button" onclick="handlemanualdisplay()" class="confirm_button_active no_display" value="Yes">
+					<input id="random_button" type="button" onclick="handlerandomdisplay()" class="confirm_button_active no_display" value="Yes">
+					<input id="btnConfirmSwitch" type="button" onclick="handleFilterSwitch()" class="confirm_button_active no_display"  value="Yes">
+				</div>
+			</div>
+
+            <div id ="download_section" class="confirm_selection">
+				<div class="confirm_selection_heading">
+					Download Options
+				</div>
+				<div id="download_option_text" class="confirm_selection_body">
+					Which document(s) would you like to download?
+				</div>
+                <div class="confirm_selection_body">
+                     (Select a suitable option for downloading the created test.)
+                    <div class="download_radiop">
+                        <div style="float:left; width:140px;"><div class= "download_checkbox" ><input id="btnStudentCopy" type="radio" checked="checked" name="copyType"  ></div><div>Student's Copy </div></div>
+                        <div style="float:left; width:130px;"><div class= "download_checkbox" ><input id="btnTeacherCopy" type="radio" name="copyType"   ></div><div> Teacher's Copy</div></div>
+                        <div style="float:left; width:80px;"><div class= "download_checkbox" ><input id="btnBothCopy" type="radio"  name="copyType"  ></div><div>Both</div></div>
+                    </div>
+                </div>
+				<div class="buttons_bottom">              
+					<input type="button" id="btnDocFormat" class="confirm_button_active" value="Download .doc">
+					<input id="btnPdfFormat" type="button" class="confirm_button_active" value="Download .pdf">
+				</div>
+			</div>
+			
+            <div id ="final_section" class="confirm_selection">				
+                <div class="confirm_selection_body" style="margin-bottom:15px;">
+                    What would you like to do next?
+                </div>
+				<div class="buttons_bottom">              
+					<input style="width:135px; margin-right:10px;" type="button" id="Button2" class="confirm_button_active" onclick="resetAll()"  value="Create New Test">
+					<input style="width:80px; margin-right:10px;" type="button" id="Button4" class="confirm_button_active" onclick="Overlaydismiss()"  value="Continue">
+					<input id="btnExit" type="button" class="confirm_button_active" onclick="exitapp()" value="Close">
+				</div>
+			</div>
+			<div id="select_question_confirm" class="confirm_selection">
+				<div class="select_question_conf_text">
+					Please select and save at least one question.
+				</div>
+			</div>
+
+			<div id="loaded_test_view" class="confirm_selection">
+				<div class="confirm_selection_heading">
+					Confirm to Proceed
+				</div>
+
+				<div class="confirm_selection_body">
+					Changing the view will clear all selection, do you want to continue?
+				</div>
+
+				<div class="buttons_bottom" id="recent_test_buttons">
+					<input type="button" onclick="OverlaydismissloadRecentTest()" class="save_button_active" value="No">
+
+					<input type="button" onclick="loaded_test_view_display()" class="save_button_active" value="Yes">
+
+				</div>
+
+			</div>
+
+			<div id="select_time_confirm" class="confirm_selection">
+
+				<div id="select_time_confirm_text" class="select_question_conf_text">
+
+				</div>
+
+			</div>
+
+			<div class="titleDiv">
+			
+				<div class="titletext">Step-by-Step Grammar 3</div>
+
+				<div title="Help" class="toolDiv_right" onclick="HelpClick()">
+                    
+				</div>
+
+			</div>
+
+            <div id="wiz_progress" class="wiz_prgress" >
+                <ul>
+                    <li><div id="wiz_1" class="wiz wiz_selected wiz_1" >Select Questions</div>
+                    </li>
+                    <li><div id="wiz_2" class="wiz wiz_default wiz_2_default" >Assign Marks</div>
+                    </li>
+                    <li><div id="wiz_3" class="wiz wiz_default wiz_3_default" >Related Details</div>
+                    </li>
+                    <li><div id="wiz_4" class="wiz wiz_default wiz_4_default" >Preview & Download</div>
+                    </li>
+                </ul>                            
+            </div>
+			<div class="workingDiv">
+				<div class="leftSection left_secbgcolor">
+					<div class="create_new_test">
+						<div class="view_outer">
+							Browse By 
+                            <input id="btnBook"  type="button" value="Book" class="filter_button book_button"/>
+                            <input id="btnChapter"  type="button" value="Chapter" class="filter_button chapter_button" />
+						</div>
+						<div class="view_outer">
+                            Select Type 
+                            <input id="btnManual"  type="button" value="Manual" class="filter_button book_button manual_button"  />
+                            <input id="btnRandom"  type="button" value="Random" class="filter_button chapter_button"  />
+						</div>
+					</div>
+
+					<div id="listContainerP" class="listContainerP default_bgcolor">
+						<div id="listContainer" style="white-space: nowrap;" ></div>
+
+					</div>
+                    <div id="select_qus_outer" class="select_qus_outer"> Total Selection: <span id="QuestionSelected" class="QuestionSelected_text"> </span>
+					</div>
+				</div>
+				<div class="rightSection default_bgcolor">
+				    <div id="detailsection" class="detailDiv">
+						<div class="front_text">
+							<div>
+								Choose selection criteria to generate list of questions.
+							</div>
+						</div>
+					</div>
+					<!-- div end -->
+					<div id="marks_detail" class="detailDivMarks">
+
+						<div id="marksbox" class="marks_box">
+							<div class="duration_marks_outer">
+								<div class="markTableLabels">
+									<div class="markTable_duration">
+										<select name="timeformat" id="timeformat" class="markTable_duration_select">
+											<option id="Select" value="Select" class="markTable_duration_select_options">-Select-</option>
+											<option id="Hours" value="Hours" class="markTable_duration_select_options">Hours</option>
+											<option id="Minutes" value="Minutes" class="markTable_duration_select_options">Minutes</option>
+										</select>
+										<input  id="timedurationinput" type="text" maxlength="3" class="markTable_duration_input positive" />
+									</div>
+									<div class="max_marks_outer">
+										<div class="max_marks_input" id="TotalMarks_calculated">
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div id="marks_table_div" class="marks_table">
+
+							</div>
+
+						</div>
+
+					</div>
+
+					
+
+					<div  id="Test_Detail_Section" class="test_details_outer">
+                    	<div class="detailDivSec">
+							<div class="school_info_outer">
+								<div class="school_info_text">
+									School Name
+								</div>
+								<input id="school_name" type="text" class="school_info_input" autocomplete="off" maxlength="150">
+							</div>
+							<div class="school_info_outer">
+								<div class="school_info_text">
+									Test/Assignment Name<span style="color:red;">*</span>
+								</div>
+								<input id="assignment_name"  type="text" class="school_info_input" autocomplete="off" maxlength="100">
+							</div>
+
+							<div class="school_info_outer">
+								<div class="school_info_text">
+									Instruction
+								</div>
+								<div class="instruction_textarea">
+									<textarea id="instruction_name" style="height:130px;width:475px;border:0;padding:8px 0 0 0;outline: none;"  rows="3" maxlength="600">
+										
+									</textarea>
+								</div>
+							</div>
+						</div>
+
+                        <div class="uploadSection">
+                            <div class="upload_photo">
+                        	    <div style="position:relative;">
+									<img id="imgLogo" height="180px" width="180px" src="content/css/images/Upload Logo_combined.png" onClick="main();">
+									<!-- <input type="button" class="upload_photo_button" onclick="uploadLogo()">--->
+                                   <!-- <div> <input type="file" id="btnUpload1" class="upload_photo_button" onclick="uploadLog()"> </div> -->
+                                    
+                                </div>
+								<div class="upload_logo_text_instruction">
+									Format supported- .jpeg, .jpg.
+								</div>
+                            </div>
+                        </div>
+					</div>
+                    <div class="parentPreviewSection">
+                    <div id="cmdCopyType" class="copyTypeCmd">
+                            <input id="prewStudentCopy" type="button" class="filter_button studentcopy_button" value="Student's Copy" onclick="studentcopy()"/> 
+					        <input id="prewTeacherCopy" type="button" class="filter_button teachercopy_button" value="Teacher's Copy" onclick="teachercopy()" />
+                        </div>
+                 	<div id="Preview_Section" class="previewSection" >
+                        
+						<div id="headerTableDiv" style="float: left; font-size: 18px;	padding: 0; width:100%;">
+
+							<table border="0" width="100%" >
+                                <tr>
+	                                <td id="school_logo_col" rowspan="3" width="100" height="60"></td>
+	                                <td align="center" id="school_name_preview" style="font-weight:bold;" ></td>
+	                                <td width="100" height="60"></td>
+                                </tr>
+                                <tr>
+	                                <td></td>
+	                                <td></td>
+                                </tr>
+                                <tr>
+	                                <td id="test_name_preview" align="center"></td>
+	                                <td></td>
+                                </tr>
+                                <tr>
+	                                <td id="max_time_container" colspan="2" style="font-weight:bold;" ></td>
+	                                <td id="max_marks_container" align="right" width="100"  style="font-weight:bold;" ></td>
+                                </tr>
+                                <tr id="assigment_text_row">
+	                                <td id="assignment_text" align="center" colspan="3">Assignment</td>
+	                            </tr>
+                                <tr id="teacher_copy_row">
+	                                <td id="teacher_copy_text_given"  align="center" colspan="3">Teacher's Copy</td>
+	                            </tr>
+                                 
+                            </table>
+
+					</div>
+					<div id="underline_div" style="height: 1px; width: 710px; float: left;">
+						<hr/>
+					</div>
+					<div id="question_instruction" style="float: left;  font-size: 18px; margin: 0; width:702px;">
+					</div>
+					<br/>
+				</div>
+                    </div>
+				
+
+				<div id="Download_section" class="confirm_selection" >
+
+					<div class="assign_marks_header">
+						DOWNLOAD
+					</div>
+
+					<div class="download_instruction">
+						Please select your preferences for current download-
+					</div>
+
+					<div class="dowload_textboxes">
+
+						<div class="dowload_row">
+							<div class="d_row_left">
+								Test Name
+							</div>
+
+							<div id="test_name_display" class="d_row_text" >
+
+							</div>
+						</div>
+
+						<div class="dowload_row">
+							<div class="d_row_left">
+								Select Document
+							</div>
+
+							<!--<div class="d_row_text">
+							<input id="chkStudentCopy" type="checkbox" onclick="documentTypeSelected()">
+							Student's Copy Only
+							</div>
+
+							<div class="d_row_text">
+							<input id="chkTeacherCopy" type="checkbox" onclick="documentTypeSelected()">
+							Teacher's Copy Only
+							</div>
+							<div class="d_row_text">
+							<input id="chkBoth" type="checkbox" onclick="chkBothClick()">
+							Both
+							</div>
+							<div id="btnStudentCopy" class="d_row_text" >
+								<div class="view_radio_outer">
+									<div id="selectStudentRadio" class="view_radio_inner view_radio_active"></div>
+								</div>
+								Student's Copy
+							</div>
+							<div id="btnTeacherCopy" class="d_row_text" >
+								<div class="view_radio_outer">
+									<div id="selectTeacherRadio" class="view_radio_inner view_radio_inactive"></div>
+								</div>
+								Teacher's Copy
+							</div>
+							<div id="btnBothCopy" class="d_row_text" >
+								<div class="view_radio_outer">
+									<div id="selectBothRadio" class="view_radio_inner view_radio_inactive"></div>
+								</div>
+								Both
+							</div>-->
+						</div>
+
+						<div class="dowload_row">
+							<div class="d_row_left">
+								Download Type
+							</div>
+							<div id="btnDocFormat" class="d_row_text" >
+								<div class="view_radio_outer">
+									<div id="selectDocRadio" class="view_radio_inner view_radio_active"></div>
+								</div>
+								.doc (Editable)
+							</div>
+							<div id="btnPdfFormat" class="d_row_text" >
+								<div class="view_radio_outer">
+									<div id="selectPdfRadio" class="view_radio_inner view_radio_inactive"></div>
+								</div>
+								.pdf (Non-editable)
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="dowload_done">
+
+						<div class="dowload_row">
+							<div class="d_row_image">
+
+							</div>
+
+							<div  class="d_row_confirm">
+								<span id="test_saved_name"></span> is successfully downloaded to your system.
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="footerDiv">
+			    <div id="divCmd" class="bottom_submit_buttons bottom_submit_buttons_start">
+					<input id="resetselected"  disabled="disabled"  type="button" title="Reset" class="cmd_buttons reset_button_inactive" onclick="ResetSelectQuestions()"/>
+					<input id="btnSubmit"   disabled="disabled"  type="button" class="cmd_buttons save_button_inactive"  onclick="SubmitAndView()" />
+					<input id="btnAutoSelect"  disabled="disabled" type="button" class="cmd_buttons save_button_inactive display_none"  onclick="SaveAutoSelectedQuestions()" />
+
+					<input id="btnBack" type="button" title="Edit Question Paper" class="cmd_buttons btnBack_button_inactive" onclick="editQuestionPaper()"  />
+					<input id="resetmarks"  type="button" title="Reset" class="cmd_buttons reset_button reset_button_disabled" style="margin-left:259px;" onclick="ResetMarksAssign()"/>
+					<input id="savemarks" type="button" title="Save" class="cmd_buttons save_marks_button_inactive" onclick="submitAssignMarksValdiate()"  disabled="disabled"/>
+					<input id="btnMarks" type="button" title="Next" class="cmd_buttons next_button_inactive" onclick="AssignMarksValidate()" disabled="disabled" />
+					<input id="btnDownload1" type="button" title="Skip" class="cmd_buttons skip_button_active"  onclick="AssignMarksComplete()" />
+                </div>
+                <div class="bottom_submit_buttons" id="Preview_buttons" >
+					<input id="Button1" type="button" title="Edit Question Paper" class="cmd_buttons btnBack_button" onclick="editQuestionPaper()"  />
+					<input id="btnDownload" type="button" title="Download Paper" class="cmd_buttons download_button" style="margin-left:259px;" onclick="OverlaydisplayDownload()" />
+				</div>           
+				<!--<div class="bottom_submit_buttons" id="Download_buttons" >
+					<input type="button" class="cmd_buttons create_test_btn" value="Create Question Paper" onclick="resetAll()"/>
+					<input id="btnDownload" type="button" class="cmd_buttons download_paper_button_active" value="Download" onclick="downloadPaper()" />
+				</div>-->
+                <div id="Detail_buttons" class="bottom_submit_buttons">
+					<input id="btnBack1" type="button" title="Edit Question Paper" class="cmd_buttons btnBack_button" onclick="editQuestionPaper()"  />
+					<input id="reset_test_details" disabled="disabled" type="button" title="Reset" class="cmd_buttons reset_button_inactive" style="margin-left:259px;" onclick="ResetTestDetails()" />
+					<input id="school_details_save" type="button" title="Save" class="cmd_buttons save_button_inactive" disabled="disabled"  onclick="SchoolDetailSave()"/>
+					<input id="PreviewSectionStart" type="button" title="Next" class="cmd_buttons next_button_inactive" disabled="disabled" onclick="PreviewSectionStart()"  />
+                </div>
+		</div>
+
+		</div>
+<script>
+function uploadLog()
+{
+	
+    var filesSelected = document.
+	getElementById("btnUpload1").files;
+    if (filesSelected.length > 0)
+    {
+        var fileToLoad = filesSelected[0];
+
+        if (fileToLoad.type.match("image.*"))
+        {
+            var fileReader = new FileReader();
+            fileReader.onload = function(fileLoadedEvent) 
+            {
+                var imageLoaded = document.createElement("imgLogo");
+                imageLoaded.src = fileLoadedEvent.target.result;
+                document.body.appendChild(imageLoaded);
+            };
+            fileReader.readAsDataURL(fileToLoad);
+        }
+    }
+}
+function uploadi(){
+	
+var uploadfiles = document.querySelector("btnUpload1");
+
+uploadfiles.addEventListener('change', function () {
+
+    var files = this.files;
+
+    for(var i=0; i<files.length; i++){
+
+        uploadFile(this.files[i]); // call the function to upload the file
+
+    }
+
+}, false);
+}
+function main()
+{
+    var inputFileToLoad = document.createElement("input");
+    inputFileToLoad.type = "file";
+    inputFileToLoad.id = "btnUpload1";
+    document.body.appendChild(inputFileToLoad);
+
+    var buttonLoadFile = document.createElement("button");
+    buttonLoadFile.onLoad = loadImageFileAsURL;
+    buttonLoadFile.textContent = "Load Selected File";
+    document.body.appendChild(buttonLoadFile);
+}
+
+function loadImageFileAsURL()
+{
+    var filesSelected = document.getElementById("btnUpload1").files;
+    if (filesSelected.length > 0)
+    {
+        var fileToLoad = filesSelected[0];
+
+        if (fileToLoad.type.match("image.*"))
+        {
+            var fileReader = new FileReader();
+            fileReader.onload = function(fileLoadedEvent) 
+            {
+                var imageLoaded = document.createElement("btnUpload1");
+                imageLoaded.src = fileLoadedEvent.target.result;
+                document.body.appendChild(imageLoaded);
+            };
+            fileReader.readAsDataURL(fileToLoad);
+        }
+    }
+}
+
+
+
+
+
+
+
+</script>
+	</body>
+</html>

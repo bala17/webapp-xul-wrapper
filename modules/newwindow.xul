@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window id="mlauncher" title="Test Generator" width="1024" height="243" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="mybrowser.js"/>
+  <script type="application/x-javascript">
+	function setTitle()
+	{
+		//alert('hello');
+		var browser = document.getElementById("browser");
+		document.title = browser.contentTitle;
+		openPdf();
+		window.close();
+	}
+
+	function openPdf()
+	{
+		//alert('hello');
+		var browser = document.getElementById("browser");
+		
+		var pdfpath = browser.currentURI.spec;
+		var n=pdfpath.match(/.pdf/g);
+		if(n.length>0)
+		{
+			var ww = Components.classes["@mozilla.org/embedcomp/window-watcher;1"].getService(Components.interfaces.nsIWindowWatcher);
+			//alert(ww);
+			var win = ww.openWindow(null, "chrome://mlauncher/content/pdf.xul?pdf="+pdfpath,"aboutMyExtension", "chrome,centerscreen", null);
+			//var confirm = "chrome://mlauncher/content/pdf.xul?pdf="+pdfpath;
+			//var windowFeatures = 'modal,width=450, height=125,scrollbars=no,resizable=no,toolbar=no,location=no';
+			//newWindow = openDialog(confirm, 'MySite :: Login', windowFeatures);
+		}
+	}
+	window.addEventListener("pageshow", setTitle, false);
+   </script>
+  <popupset>
+     <tooltip id="browserTooltip" onpopupshowing="return fillTooltip(this);"/>
+  </popupset>
+  <browser flex="1" id="browser" src="" type="content-primary" tooltip="browserTooltip"/>
+</window>
